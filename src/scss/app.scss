@@ -6,13 +6,14 @@
 
 body {
 	background: linear-gradient(81deg, #ffaa13 21%, #df0000 70%);
+	padding: 50px 0;
 }
 
 .wrapper {
 	width: calc(100vw - 100px);
 	height: 100%;
 	background: linear-gradient(127deg, #af0000 50%, #df0000 50%);
-	margin: 50px auto;
+	margin: 0px auto;
 	border-radius: 10px 6px 10px 10px;
 	max-width: 1400px;
 }
