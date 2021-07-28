@@ -13,7 +13,7 @@
 
 	&,
 	span {
-		color: #051330;
+		color: #fff;
 	}
 
 	i,
@@ -53,7 +53,7 @@
 	}
 
 	&--outline {
-		background: $orange;
+		background: linear-gradient(110deg, #af0000 33%, #df0000 78%);
 		border: 1px solid #df0000;
 		box-shadow: 3px 4px 7px -2px #051330;
 		&,
@@ -63,11 +63,12 @@
 
 		svg {
 			path {
-				fill: #051330;
+				fill: #fff;
 			}
 		}
 
 		&:hover {
+			background: linear-gradient(180deg, #ffaa13 32%, #df0000 90%);
 			&,
 			span {
 				color: #fff;
@@ -105,7 +106,7 @@
 
 		&:hover {
 			i {
-				background-color: #fff;
+				background-color: #df0000;
 				color: $orange;
 			}
 		}
@@ -114,7 +115,7 @@
 			display: inline-block;
 			border-radius: 30px;
 			background-color: $orange;
-			color: #051330;
+			color: #fff;
 			font-weight: 600;
 			width: 22px;
 			height: 22px;
@@ -134,8 +135,11 @@
 		padding: 12px 25px;
 		background-color: #a40000;
 		border: 1px solid #df0000;
-		box-shadow: 0px 4px 16px 4px #a40000;
+		box-shadow: 0px 7px 9px -1px #a40000;
 
+		&:hover {
+			background: linear-gradient(180deg, #ffaa13 32%, #df0000 90%);
+		}
 		svg {
 			margin-right: 8px;
 			margin-bottom: 1px;
@@ -144,7 +148,6 @@
 		span {
 			font-weight: 600;
 			font-size: 16px;
-			text-shadow: 2px 2px 2px #df0000;
 		}
 	}
 }

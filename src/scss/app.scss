@@ -5,15 +5,15 @@
 @import "components/all";
 
 body {
-	background: $background;
+	background: linear-gradient(81deg, #ffaa13 21%, #df0000 70%);
 }
 
 .wrapper {
 	width: calc(100vw - 100px);
 	height: 100%;
-	background: $background;
+	background: linear-gradient(127deg, #af0000 50%, #df0000 50%);
 	margin: 50px auto;
-	border-radius: 10px;
+	border-radius: 10px 6px 10px 10px;
 	max-width: 1400px;
 }
 

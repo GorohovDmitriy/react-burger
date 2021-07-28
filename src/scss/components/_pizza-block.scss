@@ -18,17 +18,17 @@
 		font-weight: 900;
 		letter-spacing: 1%;
 		margin-bottom: 20px;
-		text-shadow: 1px 1px 1px #df0000;
 	}
 
 	&__selector {
 		display: flex;
 		flex-direction: column;
 		padding: 6px;
-		background: $orange;
+		background: linear-gradient(110deg, #af0000 33%, #df0000 78%);
 		border-radius: 10px;
 		box-shadow: 4px 6px 19px -7px #000;
 		border: 1px solid #df0000;
+		color: #fff;
 
 		ul {
 			display: flex;
@@ -43,10 +43,10 @@
 				flex: 1;
 				cursor: pointer;
 				font-weight: 600;
-				font-size: 14px;
+				font-size: 16px;
 				@include noselect();
 				&.active {
-					background: linear-gradient(180deg, #df0000, #00000080);
+					background: linear-gradient(180deg, #ffaa13 32%, #df0000 90%);
 					box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
 					border-radius: 10px;
 					cursor: auto;
@@ -68,5 +68,6 @@
 		line-height: 27px;
 		letter-spacing: 0.015em;
 		margin-left: 5px;
+		color: #fff;
 	}
 }
