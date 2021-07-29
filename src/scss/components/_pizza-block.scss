@@ -1,7 +1,7 @@
 @import "../variables";
 
 .pizza-block {
-	width: 280px;
+	width: 250px;
 	text-align: center;
 	margin-bottom: 65px;
 
@@ -39,17 +39,25 @@
 			}
 
 			li {
+				background: linear-gradient(0deg, #af0000 33%, #df0000 92%);
+				border-radius: 10px;
+				box-shadow: 0px 1px 4px -1px #000000b0;
 				padding: 8px;
 				flex: 1;
 				cursor: pointer;
 				font-weight: 600;
-				font-size: 16px;
+				font-size: 14px;
+				margin: 5px;
 				@include noselect();
 				&.active {
 					background: linear-gradient(180deg, #ffaa13 32%, #df0000 90%);
 					box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
 					border-radius: 10px;
 					cursor: auto;
+				}
+				&.disable {
+					opacity: 0.4;
+					pointer-events: none;
 				}
 			}
 		}
