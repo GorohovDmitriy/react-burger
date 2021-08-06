@@ -45,11 +45,15 @@
 	}
 
 	&--black {
-		background-color: $black;
-
-		&:hover,
+		background: linear-gradient(110deg, #af0000 33%, #df0000 78%);
+		border: 1px solid #df0000;
+		box-shadow: 3px 4px 7px -2px #051330;
+		&:hover {
+			background: linear-gradient(180deg, #ffaa13 32%, #df0000 90%);
+			color: #fff;
+		}
 		&:active {
-			background-color: lighten($color: $black, $amount: 10);
+			transform: translateY(3px);
 		}
 	}
 
