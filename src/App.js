@@ -5,6 +5,7 @@ import { Home, Cart } from './pages'
 
 function App() {
 
+
 	return (
 		<div className='wrapper'>
 			<Route path='/'>
