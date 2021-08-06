@@ -1,11 +1,13 @@
 import React from 'react'
 import {useSelector, useDispatch} from 'react-redux'
+
 import {Categories, SortPopup, PizzaBlock, LoadingBlock} from '../components'
+
 import {addPizzaToCart} from '../redux/actions/cart'
 import {setCategory, setSortBy} from '../redux/actions/filters'
 import {fetchPizzas} from '../redux/actions/pizzas'
 
-const categoryName = ['Комбо', 'Бургеры', 'Роллы', 'С курицей', 'Креветки']
+const categoryName = ['Комбо', 'Бургеры', 'Роллы', 'Курица', 'Креветки']
 const sortItem = [
 	{name: 'популярности', type: 'popular', order: 'desc'},
 	{name: 'цене', type: 'price', order: 'desc'},

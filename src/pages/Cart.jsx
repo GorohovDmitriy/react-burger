@@ -33,6 +33,7 @@ function Cart() {
 	const onClickComplete = () => {
 		alert('Загляните в консоль, ваш заказ оформлен :)')
 		console.log('ВАШ ЗАКАЗ: ', items)
+		dispatch(clearCart())
 	}
 	return (
 		<div className='container container--cart'>

@@ -1,6 +1,13 @@
 @import "../variables";
 
 .categories {
+	flex: 1;
+	max-width: 80%;
+	overflow: auto;
+	@media (max-width: 768px) {
+		max-width: 100%;
+		margin-bottom: 40px;
+	}
 	ul {
 		display: flex;
 
@@ -15,6 +22,13 @@
 			color: #fff;
 			transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
 			@include noselect();
+			@media (max-width: 670px) {
+				border-radius: 40px;
+				padding-top: 10px;
+				margin-top: 5px;
+				display: flex;
+				align-items: center;
+			}
 
 			&:hover {
 				background-color: #df0000;
