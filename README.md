@@ -1,27 +1,31 @@
 ### SPA Интернет магазин Бургеров :hamburger:
 
----
+### Запустить проект
+- `npm run json-server`
+- `npm start`
 
-## Запустить проект :white_check_mark:
+### JSON.SERVER 
+- Method: `public/db.json/pizzas?${category !== null ? `category=${category}` : ''
+			}&_sort=${sortBy.type}&_order=${sortBy.order}`
 
-```sh
-npm run json-server
-npm run start
-```
+### Libraries used
+
+- `ReactJS + хуки`
+- `axios`
+- `React Router`
+- `Redux`
+- `Redux thunk`
+- `json-server`
+- `classnames`
+
+### Font
+
+- Font Link: [fonts.google.com](https://fonts.google.com/specimen/Montserrat?query=m)
+
 
 ![screen1](screen1.png)
 ![screen1](screen2.png)
 ![screen1](screen3.png)
 ![screen1](screen4.png)
 
-**Stack:**
 
-```sh
-ReactJS + хуки
-React Router
-Redux
-Redux thunk
-json-server
-Axios
-classnames
-```
